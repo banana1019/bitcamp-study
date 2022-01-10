@@ -14,8 +14,8 @@ public class Exam0210 {
     System.out.println(s1.compareTo("Hello"));
     System.out.println(s1.compareTo("Hellq"));
 
-    System.out.println(s1.contains("ll"));
-    System.out.println(s1.contains("ee"));
+    System.out.println(s1.contains("ll")); // ture
+    System.out.println(s1.contains("ee")); // false
 
     // 두 문자열을 연결하여 새 문자열을 만들자!
     String s2 = s1.concat(", world!");
@@ -61,9 +61,9 @@ public class Exam0210 {
     System.out.println(s5);
 
     // => primitive 값을 문자열로 만든다.
-    String s6 = String.valueOf(true);
-    String s7 = String.valueOf(3.14f);
-    String s8 = String.valueOf(100);
+    String s6 = String.valueOf(true); // "true"
+    String s7 = String.valueOf(3.14f); // "3.14"
+    String s8 = String.valueOf(100); // "100"
     System.out.println(s6);
     System.out.println(s7);
     System.out.println(s8);
