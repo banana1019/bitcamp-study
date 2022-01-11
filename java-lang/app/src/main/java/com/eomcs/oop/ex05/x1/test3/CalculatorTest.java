@@ -3,7 +3,7 @@ package com.eomcs.oop.ex05.x1.test3;
 // 기능 추가:
 //   - 곱하기 계산 기능을 수행
 // 해결책?
-// - 기존의 Calculator 클래스를 복제한 후 기능을 추가한다.
+//   - 기존의 Calculator 클래스를 복제한 후 기능을 추가한다.
 public class CalculatorTest {
   public static void main(String[] args) {
     Calculator2 c = new Calculator2();
