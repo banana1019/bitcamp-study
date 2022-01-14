@@ -12,7 +12,7 @@ public class MyBookController {
   ArrayList bookList = new ArrayList();
 
   public MyBookController() {
-    System.out.println("MyBookController() 호출됨!");
+    System.out.println("BookController() 호출됨!");
   }
 
   @RequestMapping("/book2/list")
