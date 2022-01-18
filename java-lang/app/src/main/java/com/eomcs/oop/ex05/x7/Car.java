@@ -5,7 +5,7 @@ public abstract class Car {
   int valve;
 
   public void start() {
-    System.out.println("시동 켠다");
+    System.out.println("시동 건다");
   }
 
   public void stop() {

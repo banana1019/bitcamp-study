@@ -2,7 +2,7 @@ package com.eomcs.oop.ex05.x7;
 
 public class Sedan extends Car {
   boolean auto;
-  boolean openedSunroof;
+  boolean openedSunroof; // 상태를 저장할 인스턴스 변수 필요해서 추가함
 
   @Override
   public void run() {
